@@ -49,6 +49,6 @@ def new_roman_numeral num
 		end
 	end
 
-	numeral = thousands + hundredsNumerals.to_s + tensNumerals.to_s + ones.to_s
+	numeral = thousands + hundredsNumerals + tensNumerals + ones
 	puts numeral
 end
