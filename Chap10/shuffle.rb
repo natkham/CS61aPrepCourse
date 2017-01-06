@@ -18,5 +18,3 @@ def rec_shuf unshuffled, shuffled
 	shuffled.push chosen
 	rec_shuf still_unshuffled, shuffled
 end
-
-puts (shuffle(['if', 'you', 'don\'t', 'know', 'let', 'me', 'go']))
