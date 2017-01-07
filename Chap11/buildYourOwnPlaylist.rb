@@ -27,4 +27,4 @@ File.open 'playlist.m3u', 'w' do |f|
 	end
 end
 
-puts 'Done!'
+puts 'done'
